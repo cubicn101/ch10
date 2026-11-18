@@ -7,7 +7,8 @@ public class FractionDriver{
 	    Fraction f3 = new Fraction("1/2");
 	    System.out.println(f1.numerator+"/"+ f1.denominator);
 	    System.out.println(f2.numerator+"/"+ f2.denominator);
-	
+	    System.out.println(f3);
+	    
 	}
 
 }
