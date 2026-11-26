@@ -7,8 +7,8 @@ public class Fraction {
 
     // 1. Default constructor
     public Fraction() {
-        numerator = 1;
-        denominator = 1;
+	   numerator = (int)(Math.random()*9) +1;
+       denominator = (int)(Math.random()*9)+1;
     }
 
     // 2. Constructor with two integers
